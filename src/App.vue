@@ -2,7 +2,9 @@
   // @ts-ignore
   // import HelloWorld from './components/HelloWorld.vue'
   // import SyntaxAndExpressions from './components/Learning/SyntaxAndExpressions.vue';
-  import ListRendering from './components/Learning/ListRendering.vue';
+  // import ListRendering from './components/Learning/ListRendering.vue';
+
+  import UserInput from './components/Learning/UserInput.vue';
 
 </script>
 
@@ -12,5 +14,7 @@
 
   <!-- <SyntaxAndExpressions /> -->
 
-  <ListRendering />
+  <!-- <ListRendering /> -->
+
+   <UserInput />
 </template>
