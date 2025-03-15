@@ -26,6 +26,13 @@ const fruitArrObj = ref([
         -->
         <li v-for="fruit in fruits" :key="fruit">{{ fruit }}</li>
 
+        <!-- fruits.forEach( fruit => {} ) -->
         <li v-for="fruit in fruitArrObj" :key="fruit.id"> {{ fruit.name }} </li>
+
+        <!-- fruits.forEach( (fruit, index) => {} ) -->
+        <li v-for="(fruit, index) in fruits" :key="index">{{ index + 1 }}. {{ fruit }}</li>
+
+        <!-- fruitArrObj.forEach( ({id, name}, index) => {} ) -->
+        <li v-for="({id, name}, index) in fruitArrObj" :key="id"> {{ index + 1 }}. {{ name }} {{ id }}</li>
     </ul>
 </template>
