@@ -6,7 +6,9 @@
 
   // import UserInput from './components/Learning/UserInput.vue';
 
-  import UserEvents from './components/Learning/UserEvents.vue';
+  // import UserEvents from './components/Learning/UserEvents.vue';
+
+  import Conditional from './components/Learning/Conditional.vue';
 
 </script>
 
@@ -20,5 +22,7 @@
 
   <!-- <UserInput /> -->
 
-  <UserEvents />
+  <!-- <UserEvents /> -->
+
+  <Conditional />
 </template>
