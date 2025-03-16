@@ -10,7 +10,9 @@
 
   // import Conditional from './components/Learning/Conditional.vue';
 
-  import AttributeBinding from './components/Learning/AttributeBinding.vue';
+  // import AttributeBinding from './components/Learning/AttributeBinding.vue';
+
+  import DynamicClasses from './components/Learning/DynamicClasses.vue';
 
 </script>
 
@@ -26,7 +28,9 @@
 
   <!-- <UserEvents /> -->
 
-  <Conditional />
+  <!-- <Conditional /> -->
 
-  <AttributeBinding/>
+  <!-- <AttributeBinding/> -->
+
+  <DynamicClasses/>
 </template>
