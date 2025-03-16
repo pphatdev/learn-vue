@@ -8,7 +8,9 @@
 
   // import UserEvents from './components/Learning/UserEvents.vue';
 
-  import Conditional from './components/Learning/Conditional.vue';
+  // import Conditional from './components/Learning/Conditional.vue';
+
+  import AttributeBinding from './components/Learning/AttributeBinding.vue';
 
 </script>
 
@@ -25,4 +27,6 @@
   <!-- <UserEvents /> -->
 
   <Conditional />
+
+  <AttributeBinding/>
 </template>
