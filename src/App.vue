@@ -14,7 +14,9 @@
 
   // import DynamicClasses from './components/Learning/DynamicClasses.vue';
   
-  import ComputedProperties from './components/Learning/ComputedProperties.vue';
+  // import ComputedProperties from './components/Learning/ComputedProperties.vue';
+
+  import Reactivity from './components/Learning/Reactivity.vue';
 
 </script>
 
@@ -36,5 +38,7 @@
 
   <!-- <DynamicClasses/> -->
 
-  <ComputedProperties/>
+  <!-- <ComputedProperties/> -->
+
+  <Reactivity/>
 </template>
