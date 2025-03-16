@@ -12,7 +12,9 @@
 
   // import AttributeBinding from './components/Learning/AttributeBinding.vue';
 
-  import DynamicClasses from './components/Learning/DynamicClasses.vue';
+  // import DynamicClasses from './components/Learning/DynamicClasses.vue';
+  
+  import ComputedProperties from './components/Learning/ComputedProperties.vue';
 
 </script>
 
@@ -32,5 +34,7 @@
 
   <!-- <AttributeBinding/> -->
 
-  <DynamicClasses/>
+  <!-- <DynamicClasses/> -->
+
+  <ComputedProperties/>
 </template>
